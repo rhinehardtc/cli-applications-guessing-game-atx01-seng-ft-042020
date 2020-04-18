@@ -4,7 +4,7 @@ def run_guessing_game
   
   message = puts 'guess a number from 1 to 6'
   num = rand(6) + 1
-  input = gets.chomp
+  input = gets.chomp.to_i
   binding.pry
   message
   num
