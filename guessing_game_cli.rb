@@ -7,7 +7,7 @@ def run_guessing_game
   num
   puts 'guess a number from 1 to 6'
   input
-  if input == num
+  if input = num
     puts "You guessed the correct number!"
   elsif input != num
     puts "Sorry! The computer guessed #{num}."
